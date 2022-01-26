@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --heigth-1440: 540px;
+    --width-1440: 325px;
+}
+
+
+@media (min-width: 340px) {
+    :root{ 
+        --heigth-375: 375px; 
+    
+}
+}
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.centro {
+   border-radius: 15px;
+   background-color: hsl(216, 50%, 16%); 
+  margin-left: auto;
+  margin-right: auto;
+  height: var(--heigth-1440);
+  width: var(--width-1440);
+  margin-top: 60px;
+
+  outline: red 2px solid;
+}
+
+.imagen {
+    height: 285px;
+    width: 285px;
+    margin: 20px;;
+    border-radius: 15px;
+}
+
+
+
+
+.texto-blanco {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 16px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.texto-blanco a {
+text-decoration: none;
+color: white;
+}
+
+.texto-blanco a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.texto-celeste{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.contenedor-span {
+    height: 43px;
+    width: 285px;
+    margin: 20px;
+    
+}
+
+.eth {
+
+width: 100px;
+display: flex;
+float: left;
+margin-left: 20px;
+color: hsl(178, 100%, 50%);
+font-family: 'Outfit', sans-serif;
+font-weight: 600;
+}
+
+.ethimg {
+    margin-right: 7px;
+}
+
+.tresdias {
+    width: 100px;
+    float: right;
+    margin-right: 20px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.tresdiasimg {
+
+    display: flex;
+    float: left;
+   margin-right: 7px;
+   margin-top: 2px;
+}
+
+.icon {
+    width: 285px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px;
+    border-style: solid;
+    border-top-color: hsl(215, 51%, 70%);
+    border-bottom-color: hsl(216, 50%, 16%); 
+    border-left-color: hsl(216, 50%, 16%); 
+    border-right: hsl(216, 50%, 16%); 
+}
+
+.avatar {
+    height: 35px;
+    margin-top: 10px;
+    padding-top: 5px;
+    display: flex;
+    float: left;
+    border: white 1px solid;
+    border-radius: 50px;
+
+}
+
+.textoavatar {
+   
+    width: 200px;
+    display: flex;
+    margin-top: 22px;
+    margin-left: 70px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.textoavatar a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.textoavatar a:hover {
+    color: hsl(178, 100%, 50%);
+}
